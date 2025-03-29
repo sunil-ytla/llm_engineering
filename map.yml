@@ -1,0 +1,97 @@
+week1:
+  day1:
+    how to create summary about website using url and llm.
+  
+  day2:
+    how to use ollama locally in terminal and python.
+
+  day 5:
+    extracts and contents from a website using beautifulsoup and requests.
+    have gpt to figureout which links are useful.
+    and for each link extract the contents and feed it to gpt to make a brochure.
+    and then return the brochure to the user as markdown.
+  
+  learnings:
+    - how to use openai library.
+    - how to use beautifulsoup and requests.
+    - update display of jupyter notebook.
+    - print markdown in jupyter notebook.
+  
+week2:
+  day1:
+    streaming llm responses.
+  
+  day2:
+    build AI UI using gradio
+
+  day3:
+    build chat UI in gradio.
+    giving context in prompt and multi-shot prompting.
+    building customer support assistant using llm.
+  
+  day4:
+    Define Tools
+    Give common use cases for each tool.
+    code an ai assistant that uses tools.
+  
+  day5:
+    Describe Agents
+    Explain agents carry out sequence of actions.
+    complete multi-modal AI assistant with tools and agents.
+  
+
+week3:
+  day1:
+    Explore hugging face platform and everything it offers.
+    look at models, datasets and spaces in hugging face.
+    using google colab to code on a high spec GPU runtime.
+  day2:
+    using hugging face transformers:
+      - Sentiment Analysis
+      - Named Entity Recognition
+      - Question Answering with Context
+      - Text Summarization
+      - Translation
+      - Classification
+      - Text Generation
+      - Image Generation
+      - Audio Generation
+      # we have all these examples in the notebook below.
+      # https://colab.research.google.com/drive/1aMaEw8A56xs0bRM4lu8z7ou18jqyybGm?usp=sharing#scrollTo=kCPBE0i4pAAO or 
+      # https://github.com/sunil-ytla/colab-notebooks/blob/main/week_3_day_2_pipelines(hugging_face_pipelines).ipynb
+  day3:
+    exploring tokenizers using hugging face.
+    comparing tokenizers for opensource models and hugging face models.
+    using autotokenizer to load the tokenizer.
+    # we have all these examples in the notebook below.
+    # https://colab.research.google.com/drive/1WD6Y2N7ctQi1X9wa6rpkg8UfyA4iSVuz?usp=sharing or
+    # https://github.com/sunil-ytla/colab-notebooks/blob/main/Week_3_Day_3_tokenizers(hugging_face_tokenizers).ipynb
+  day4:
+    Running inference on hugging face models.
+    loading and quantizing models using bits and bytes so they fit in Memory.
+    # we have all these examples in the notebook below.
+    # https://colab.research.google.com/drive/1hhR9Z-yiqjUe7pJjVQw4c74z_V3VchLy?usp=sharing#scrollTo=hxZQmZDCe4Jf or 
+    # https://github.com/sunil-ytla/colab-notebooks/blob/main/Week_3_Day_4_models(hugging_face_models_quantized).ipynb
+
+  day5:
+    using openai and hugging face models for AI powered minutes generation.
+      - takes audio file as input and generates or produces minutes of meetings, with summary, key discussion points, takeaways and action items with owners, in markdown.
+      # we have all these examples in the notebook below.
+      # https://colab.research.google.com/drive/1KSMxOCprsl1QRpt_Rq0UqCAyMtPqDQYx?usp=sharing#scrollTo=piEMmcSfMH-O or 
+      # https://github.com/sunil-ytla/colab-notebooks/blob/main/Week_3_Day_5_Meeting_Minutes_product.ipynb
+
+
+
+
+
+
+Targets:
+  Main Target:
+    Create An API Backend service which has all the API's from below.
+
+  Week1:
+    An api which will take a website url and return the summary of the website.
+      - should be able to return the in text format or json format or html format, or markdown format.
+      - should be able to return summary or Brochure of the website.
+    
+  
