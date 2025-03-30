@@ -82,6 +82,36 @@ week3:
 
 
 
+week4:
+  day1:
+    Comparing LLM's:
+      Basics 1:
+        - Open Sourced or Closed
+        - Release data and knowledge cutoff
+        - parameters
+        - training tokens
+        - context length
+      Basics 2:
+        - inference cost
+        - Training cost
+        - build cost
+        - Time to Market
+        - Rate Limit
+        - Speed
+        - Latency
+        - Licensing
+    Chinchilla Scaling Law:
+      - No of parameters ~ no of training tokens
+      - if your training data doubles then you need to double the parameters.
+    common benchmarks:
+      - https://github.com/sunil-ytla/llm_engineering/blob/sunilvytla/week4/image.png
+  day2:
+    today skills:
+      - navigate the most useful leaderboards and arenas to evaluate llms.
+      - give real world usecases of LLM's solving real world problems.
+      - Confidently choose llms for your usecase.  
+    six leaderboards:
+      
 
 
 
